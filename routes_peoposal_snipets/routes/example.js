@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const {exampleController, exampleControllerPOST} = require('./conttroller.js');
-const middlewareError = require('./middlewareError.js');
+const {exampleController, exampleControllerPOST} = require('../controllers/example.js');
+const middlewareError = require('../middlewares/middlewareError.js');
 
 router
   .route('/')
